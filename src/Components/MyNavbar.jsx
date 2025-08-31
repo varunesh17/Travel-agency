@@ -17,7 +17,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
           <Container>
             <Navbar.Brand href="/">
               <img
-               src="/src/images/logo8.jpg"
+               src="/src/images/logo8.jpeg"
                 alt="Logo"
                 className="navbar-logo"
               />
