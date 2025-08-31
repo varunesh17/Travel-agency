@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-
+ 
 
 import Home from './pages/Home';
 import About from './pages/About';
@@ -32,7 +32,7 @@ function App() {
                 We are a travel agency dedicated to providing the best travel experiences. Explore the world with us!
               </p>
               <h6>Contact Us</h6>
-              <p>Email: varuneshsj17@travelagency.com</p>
+              <p>Email: varuneshsj17@gmail.com</p>
               <p>Phone: 9443582232</p>
             </div>
             <div className="col-md-4">

@@ -2,7 +2,7 @@
 
 
 .navbar {
-  background-color: #111d77f5 !important; 
+  background-color: #00000014 !important; 
 }
 
 .navbar-brand img {
@@ -10,6 +10,10 @@
   width: 70px;
   
 
+}
+
+.navbar-brand{
+  margin-left:-80px;
 }
 
 .navbar-nav .nav-link {
@@ -20,7 +24,7 @@
 
 
 .navbar-nav .nav-link:hover {
-  color: #ffdd57 !important; 
+  color: #eb0707e2 !important; 
 }
 
 
@@ -36,7 +40,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #0f3a97f5 !important; 
+  background-color: #000000f5 !important; 
   z-index: 1000;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /
 }

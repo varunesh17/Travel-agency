@@ -33,7 +33,7 @@ export default function Home() {
     return (
         <div>
             <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
-                {/* Indicators */}
+              
                 <div className="carousel-indicators">
                     <button
                         type="button"
@@ -47,8 +47,8 @@ export default function Home() {
 
             
                 <section className="bg"/>
-                {/* <div className="carousel-inner">
-                    <div> */}
+  
+                    
                     <h2 className=" font-script text-fw-bold display-4 display-md-3 display-lg-2">Welcome to Pacific</h2>
                     <h1 clasName=" font-script text-fw-bold display-4 display-md-3 display-lg-2">Discover Your Favourite Place With Us</h1>
                     </div>
@@ -103,9 +103,9 @@ export default function Home() {
                 </div>
                 <br />
 
-                {/* Tour Destinations */}
+             
 
-                {/* <section className="testimonials py-5"> */}
+              
         <div className="container text-center">
           <h2 className="font-script">Pacific Provide Places</h2>
           <h1 className="font-bold">Select Your Destination</h1>
@@ -148,7 +148,7 @@ export default function Home() {
     </div>
     
 </div>
-{/* <section/> */}
+
 <br />  
 
  
@@ -245,7 +245,7 @@ export default function Home() {
                                  <div className="card h-100">
                                    <img src={g7} className="card-img-top" alt="" />
                                    <div className="card-body">
-                                     <h5 className="card-title">Island</h5>
+                                     <h5 className="card-title">America</h5>
                                      <p className="card-text">12 Days Tour</p>
                                      <div className="d-flex justify-content-between align-items-center">
                                        <span className="price">$49</span>

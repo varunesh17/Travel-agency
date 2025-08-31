@@ -3,7 +3,7 @@ import './Navbar.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-// edit
+
 import { Outlet, Link } from 'react-router-dom';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,12 +12,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
    function MyNavbar()  {
     return (
       <div>
-        {/* Navbar stays fixed at the top */}
+      
         <Navbar expand="lg" variant="dark" className="navbar-fixed">
           <Container>
             <Navbar.Brand href="/">
               <img
-                src="/src/images/logo9.jpeg"
+                src="/src/images/logoA.png"
                 alt="Logo"
                 className="navbar-logo"
               />
@@ -26,7 +26,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
                 <Nav.Link as={Link} to="/">Home</Nav.Link>
-                <Nav.Link as={Link} to="/About">Services</Nav.Link>
+                <Nav.Link as={Link} to="/About">About</Nav.Link>
                 <Nav.Link as={Link} to="/Destination">Destination</Nav.Link>
                 <Nav.Link as={Link} to="/Hotel">Hotel</Nav.Link>
                 <Nav.Link as={Link} to="/Blog">Blog</Nav.Link>
